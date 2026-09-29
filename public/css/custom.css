@@ -1,0 +1,195 @@
+body {
+  background: #F3F0F7;
+  color: #292238;
+}
+
+.max-w-prose {
+  max-width: 1100px;
+}
+
+/* blue accent */
+a {
+  color: #8B72BE;
+}
+header a {
+  color: #292238;
+}
+
+
+/* INTRO */
+
+.intro-row {
+  margin-top: 4rem;
+  padding: 2rem 0 3.5rem;
+
+  border-top: 1px solid #CFC6DC;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+}
+
+.intro-text {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.year {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+
+/* PROJECT */
+
+.project-row {
+  border-top: 1px solid #CFC6DC;
+  border-bottom: 1px solid #CFC6DC;
+
+  padding: 2rem 0 3rem;
+
+  display: grid;
+  grid-template-columns: 80px 150px 1fr;
+  gap: 2rem;
+}
+
+.project-number {
+  color: #8B72BE;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.project-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  padding-top: 0.8rem;
+}
+
+.project-content h2 {
+  margin: 0;
+  color: #161616;
+
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+
+.project-content p {
+  margin: 1.5rem 0;
+  color: #666;
+}
+
+.project-content a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-content a:hover {
+  text-decoration: underline;
+}
+/* TYPOGRAPHY BALANCE */
+
+.year {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.intro-text {
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.project-number {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.project-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.project-content h2 {
+  font-size: 1.75rem;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+.project-content p {
+  font-size: 0.95rem;
+}
+
+.project-content a {
+  font-size: 0.95rem;
+}
+/* FINAL SPACING */
+
+.intro-row {
+  margin-top: 2.5rem;
+  padding: 1.5rem 0 2.5rem;
+}
+
+.intro-text {
+  margin-top: 1.5rem;
+}
+
+.project-row {
+  padding: 2rem 0 2.5rem;
+}
+
+.project-content h2 {
+  margin-bottom: 1rem;
+}
+/* FINAL TYPE + COLOUR */
+
+/* Overall font */
+body {
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  color: #241F2D;
+}
+
+/* Main title */
+h1 {
+  color: #241F2D;
+  font-weight: 650;
+}
+
+/* Darker purple accents */
+.project-number,
+.project-content a {
+  color: #5B3F8C;
+}
+
+/* Darker secondary text */
+.project-content p {
+  color: #454052;
+}
+
+/* Week label */
+.project-label,
+.eyebrow {
+  color: #454052;
+}
+
+/* Project title */
+.project-content h2 {
+  color: #241F2D;
+  font-weight: 600;
+}
+
+/* Intro sentence */
+.intro-text {
+  color: #363140;
+}s
