@@ -100,16 +100,3 @@ The `/` at the beginning made the link start from the root of the GitHub Pages d
 ```
 
 After pushing the change to GitHub and letting GitHub Actions rebuild the site, the link worked on the published version as well.
-### Using Obsidian
-
-For writing the documentation, I opened the Hugo project folder as an **Obsidian vault**. This lets me edit the Markdown files directly in Obsidian without creating a separate copy of the documentation.
-
-For example, this page is stored as `content/week-1/index.md`. I can write in Obsidian, preview the changes locally with Hugo, and then push them to GitHub when they are ready.
-
-### Result
-
-I now have a documentation website that I can update throughout the course. I write the documentation in Obsidian, use Hugo to generate and preview the site, and push my changes with Git. GitHub Actions then publishes the updated version through GitHub Pages.
-
-The final website is available at:
-
-`https://belizkasaci-glitch.github.io/digital-fabrication/`

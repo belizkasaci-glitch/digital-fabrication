@@ -1,4 +1,29 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'blowfish'
+baseURL = "https://belizkasaci-glitch.github.io/digital-fabrication/"
+title = "Digital Fabrication"
+theme = "rewired"
+locale = "en-US"
+
+defaultContentLanguage = "en"
+
+[params]
+  author = "Beliz Kasacı"
+  descriptionLines = [
+    "Digital Fabrication",
+    "Documentation, experiments, and projects."
+  ]
+  tagline = "Assignments, processes, mistakes, and things that worked."
+
+[params.footer]
+  text = "Digital Fabrication // 2026"
+  prompt = "beliz@digital-fabrication:~$"
+
+[params.toc]
+  enabled = true
+  ordered = false
+  startLevel = 1
+  endLevel = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
