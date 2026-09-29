@@ -100,3 +100,40 @@ The `/` at the beginning made the link start from the root of the GitHub Pages d
 ```
 
 After pushing the change to GitHub and letting GitHub Actions rebuild the site, the link worked on the published version as well.
+### Changing the Theme
+
+I initially used the Blowfish theme, but after customizing it for a while, I decided to switch to the Rewired theme because I preferred its layout and visual style.
+
+I added Rewired as another Git submodule:
+
+```bash
+git submodule add https://github.com/RigleGit/rewired.git themes/rewired
+```
+
+I then changed the Hugo configuration to use Rewired and customized the homepage to show my assignments directly.
+
+While changing themes, I noticed that some of the old Blowfish configuration files were still affecting the website. For example, an extra language selector appeared in the top right corner. I removed the old Blowfish configuration files and adjusted the Rewired navigation, which fixed the problem.
+
+### Using Obsidian
+
+I opened the `mywebsite` folder as an Obsidian vault and used it to write my documentation. Since Obsidian edits Markdown files directly, I can work on the same files that Hugo uses for the website.
+
+For example, this page is stored in:
+
+`content/week-1/index.md`
+
+This means I can write in Obsidian, preview the result locally with Hugo, and then push the changes to GitHub.
+
+### Result
+
+![[Screenshot 2026-09-29 at 16.45.29.png]]
+
+*Final version of the documentation website running locally with Hugo.*
+
+The final result is a documentation website that I can continue updating throughout the course.
+
+My workflow is:
+
+`Obsidian → Hugo → Git → GitHub → GitHub Pages`
+
+I write the documentation in Obsidian, preview the website locally with Hugo, and push the changes to GitHub. GitHub Actions then rebuilds and publishes the updated website automatically.

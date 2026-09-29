@@ -8,7 +8,7 @@ description: "Fusion 360 — Rocket Design"
 
 This week, I used Fusion 360 to model a rocket made up of several individual components. I started with sketches based on hexagonal geometry and used **Extrude** to turn the profiles into 3D forms. For the tapered sections, I created sketches at different heights using **Offset Plane** and connected the profiles with **Loft**. I used the **Hole** feature to create precise openings in the components, and **Circular Pattern** to repeat features evenly around the body.
 
-![Fusion 360 rocket model](rocket.png)
+![Fusion 360 rocket model](public/week-1/rocket.png)
 
 ### Tools Used
 
