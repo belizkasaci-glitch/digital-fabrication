@@ -125,7 +125,7 @@ For example, this page is stored in:
 This means I can write in Obsidian, preview the result locally with Hugo, and then push the changes to GitHub.
 
 ### Result
-![Final version of the documentation website](Screenshot%202026-09-29%20at%2016.45.29.png)
+![Final version of the documentation website](final-website.png)
 
 *Final version of the documentation website running locally with Hugo.*
 
