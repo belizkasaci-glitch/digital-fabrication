@@ -19,5 +19,5 @@ title: "Digital Fabrication"
  <div class="project-content">
     <h2>Fusion 360:<br>Rocket Design</h2>
     <p>3D Modeling / Fusion 360 / CAD</p>
-    <a href="/week-1/">View documentation ↗</a>
+    <a href="week-1/">View documentation ↗</a>
 </div>
