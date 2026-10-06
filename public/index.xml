@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Digital Fabrication on Beliz Kasacı</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Digital Fabrication on Beliz Kasacı</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2026 </copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Week 1</title>
-      <link>http://localhost:1313/week-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/week-1/</guid>
-      <description></description>
-      
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Digital Fabrication</title>
+		<link>http://localhost:1313/digital-fabrication/</link>
+		<description>Recent content on Digital Fabrication</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/digital-fabrication/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Assignment 2</title>
+				<link>http://localhost:1313/digital-fabrication/assignment-2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/digital-fabrication/assignment-2/</guid>
+				<description>&lt;h2 id=&#34;fusion-360--rocket-design&#34;&gt;Fusion 360 — Rocket Design&lt;/h2&gt;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;This week, I used Fusion 360 to model a rocket made up of several individual components. I started with sketches based on hexagonal geometry and used &lt;strong&gt;Extrude&lt;/strong&gt; to turn the profiles into 3D forms. For the tapered sections, I created sketches at different heights using &lt;strong&gt;Offset Plane&lt;/strong&gt; and connected the profiles with &lt;strong&gt;Loft&lt;/strong&gt;. I used the &lt;strong&gt;Hole&lt;/strong&gt; feature to create precise openings in the components, and &lt;strong&gt;Circular Pattern&lt;/strong&gt; to repeat features evenly around the body.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Week 1</title>
+				<link>http://localhost:1313/digital-fabrication/week-1/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/digital-fabrication/week-1/</guid>
+				<description>&lt;h2 id=&#34;assignment-1--documentation-website&#34;&gt;Assignment 1 — Documentation Website&lt;/h2&gt;&#xA;&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of this assignment was to create a website where I can document my work throughout the Digital Fabrication course. I wanted the website to be simple to update, so I chose Hugo to build it and GitHub Pages to publish it online.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-the-website&#34;&gt;Setting Up the Website&lt;/h3&gt;&#xA;&lt;p&gt;I used &lt;strong&gt;Hugo&lt;/strong&gt; as the static site generator for my documentation website. I first created a folder for the project and then created a new Hugo site from Terminal.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

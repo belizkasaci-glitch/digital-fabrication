@@ -1,709 +1,204 @@
 <!doctype html>
-<html
-  lang="en"
-  dir="ltr"
-  class="scroll-smooth"
-  data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
-  
-    <meta http-equiv="content-language" content="en">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color">
+<html lang="en-US">
+	<head><script src="/digital-fabrication/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=digital-fabrication/livereload" data-no-instant defer></script>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  
-    <title>Week 1 &middot; Beliz Kasacı</title>
-    <meta name="title" content="Week 1 &middot; Beliz Kasacı">
-  
+<title>Week 1 · Digital Fabrication</title>
 
-  
-  
-  
-  
-  
-    
-  
-    
-  
-    
-  
-  
-    <meta name="description" content="Fusion 360 — Rocket Design">
-  
-  
-  
-  
-  <link rel="canonical" href="http://localhost:1313/week-1/">
-  
-  
-  
+<meta name="description" content="Fusion 360 — Rocket Design">
 
-  
-  
-  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  
-  <meta property="og:url" content="http://localhost:1313/week-1/">
-	<meta property="og:site_name" content="Beliz Kasacı">
-	<meta property="og:title" content="Week 1">
-	<meta property="og:description" content="Fusion 360 — Rocket Design">
-	<meta property="og:locale" content="en">
-	<meta property="og:type" content="article">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-  
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Week 1">
-	<meta name="twitter:description" content="Fusion 360 — Rocket Design">
+<link rel="stylesheet" href="/digital-fabrication/css/rewired.css">
 
-  
-  
-  
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-  
-    
-  
+      <script defer src="/digital-fabrication/js/main.js"></script>
 
-  
-  
-  
-  
-  
-  
 
-  
+	</head>
 
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  
-    
-  
-  
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="/css/main.bundle.min.ad53ecc78a5e7bff69e9b5cdcf194a6dc48afeebf3cbe3fc1166989a431d64ccd21c9e45b8f7631ba6e4673115775e16114c3cd68545b0e1665127190afe7ff5.css"
-    integrity="sha512-rVPsx4pee/9p6bXNzxlKbcSK/uvzy&#43;P8EWaYmkMdZMzSHJ5FuPdjG6bkZzEVd14WEUw81oVFsOFmUScZCv5/9Q==">
+	<body>
+		<a class="skip-link" href="#main-content">
+			Skip to content
+		</a>
 
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/appearance.min.764f412f07ea715415e9123a5eb5f355429502d0b760146b9bcab854bc50829dee14488594acd935dfcdc6a0fe7e6d14d7bee914ebb9272b251aa238cb52c4dd.js"
-    integrity="sha512-dk9BLwfqcVQV6RI6XrXzVUKVAtC3YBRrm8q4VLxQgp3uFEiFlKzZNd/NxqD&#43;fm0U177pFOu5JyslGqI4y1LE3Q=="></script>
-  
+		<div class="site-shell">
+			<header class="site-header">
+				<nav class="topbar" aria-label="Main navigation">
+	<div class="topbar__inner">
+		<ul class="topbar__menu">
+			
+		</ul>
 
-
-  
-  
-  
-  
-  
-  
-    
-    <script defer src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
-    
-    <script defer src="/js/medium-zoom.67b71ecf7eecce38673a92244d1ffd93edb5f1aeedd12e725d0f67fe901828fa3562f6a6d64ad290b36b7d7034b8ea16e63486d75d957bcf6a2732923e5d46e6.js" integrity="sha512-Z7cez37szjhnOpIkTR/9k&#43;218a7t0S5yXQ9n/pAYKPo1Yvam1krSkLNrfXA0uOoW5jSG112Ve89qJzKSPl1G5g=="></script>
-  
-  
-  
-  
-
-  
-  
-  
-    
-  
-  
-    
-    
-    
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    <script
-      defer
-      type="text/javascript"
-      id="script-bundle"
-      src="/js/main.bundle.min.be4a11c293f9b8ab20ab872f73c6b0c584fcba4a0df2c8ef7f414a5805c0ddab955ac23bec4a6d92a06087498d445cb2bf26a6602a27981980efe2bda70104a4.js"
-      integrity="sha512-vkoRwpP5uKsgq4cvc8awxYT8ukoN8sjvf0FKWAXA3auVWsI77EptkqBgh0mNRFyyvyamYConmBmA7&#43;K9pwEEpA=="
-      data-copy="Copy"
-      data-copied="Copied"></script>
-  
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-  
-
-  
-  <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "Digital Fabrication",
-    "name": "Week 1",
-    "headline": "Week 1",
-    "description": "Fusion 360 — Rocket Design",
-    "inLanguage": "en",
-    "url" : "http://localhost:1313/week-1/",
-    "author" : {
-      "@type": "Person",
-      "name": ""
-    },
-    
-    
-    
-    
-    
-    
-    
-    
-    "mainEntityOfPage": "http://localhost:1313/week-1/",
-    "wordCount":  190 
-  }]
-  </script>
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
-    <div id="the-top" class="absolute flex self-center">
-      <a
-        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
-        href="#main-content">
-        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
-        Skip to main content
-      </a>
-    </div>
-    <header>
-      
-      
-        <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
-  
-  
-    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
-      Beliz Kasacı
-    </a>
-  
-  <div class="flex items-center ms-auto">
-    <div class="hidden md:flex">
-      <nav aria-label="Main menu" class="flex items-center gap-x-5 h-12">
-  
-
-  
-
-  
-
-  
-    <div class="flex items-center">
-      <button
-        id="appearance-switcher"
-        aria-label="Switch to dark appearance"
-        type="button"
-        class="text-sm bf-icon-color-hover"
-        title="Switch to dark appearance">
-        <div class="flex items-center justify-center dark:hidden">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-        </div>
-        <div class="items-center justify-center hidden dark:flex">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-        </div>
-      </button>
-    </div>
-  
-
-  
-    <button
-      id="search-button"
-      aria-label="Search (/ or ⌘K)"
-      class="flex items-center gap-2 rounded-lg border bf-border-color bf-border-color-hover bg-neutral-100/50 px-2 py-1 text-sm text-neutral-500 transition-colors hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral-400 dark:hover:text-primary-400"
-      title="Search (/ or ⌘K)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-      <kbd
-        id="search-shortcut-hint"
-        class="pointer-events-none font-sans text-xs text-neutral-500 dark:text-neutral-400"
-        aria-hidden="true">
-        ⌘K
-      </kbd>
-    </button>
-  
+	</div>
 </nav>
-
-
-
-    </div>
-    <div class="flex md:hidden">
-      
-<div class="mobile-header-row relative flex items-center h-14 gap-4">
-  
-
-  
-    <button
-      id="appearance-switcher-mobile"
-      type="button"
-      aria-label="Switch to dark appearance"
-      title="Switch to dark appearance"
-      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
-      <div class="dark:hidden">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
-</span>
-      </div>
-      <div class="hidden dark:block">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
-</span>
-      </div>
-    </button>
-  
-
-  
-    <button
-      id="search-button-mobile"
-      aria-label="Search (/ or ⌘K)"
-      class="flex items-center justify-center bf-icon-color-hover"
-      title="Search (/ or ⌘K)">
-      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-    </button>
-  
-
-  
-</div>
-
-
-
-
-
-
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-      
-    </header>
-    <div class="relative flex flex-col grow">
-      <main id="main-content" class="grow">
-        
-  
-  
-  
-  
-  <article>
-    
-    
-
-    
-    <header id="single_header" class="mt-5 max-w-prose">
-      
-      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Week 1
-      </h1>
-      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-        
-
-
-
-
-
-  
-  
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>190 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-
-      </div>
-      
-        
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-    
-      
-      
-<div class="flex author">
-  
-  <div class="place-self-center">
-    
-    
-    <div class="text-2xl sm:text-lg">
-</div>
-  </div>
-</div>
-
-    
-  
-
-  
-    <div class="mb-5"></div>
-  
-
-      
-    </header>
-
-    
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-      
-      
-      
-      
-      
-
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-
-        <div class="article-content max-w-prose mb-20">
-          
-<h2 class="relative group">Fusion 360 — Rocket Design
-    <div id="fusion-360--rocket-design" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#fusion-360--rocket-design" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-
-<h3 class="relative group">Overview
-    <div id="overview" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#overview" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>This week, I used Fusion 360 to model a rocket made up of several individual components. I started with sketches based on hexagonal geometry and used <strong>Extrude</strong> to turn the profiles into 3D forms. For the tapered sections, I created sketches at different heights using <strong>Offset Plane</strong> and connected the profiles with <strong>Loft</strong>. I used the <strong>Hole</strong> feature to create precise openings in the components, and <strong>Circular Pattern</strong> to repeat features evenly around the body.</p>
-<figure><img
-    class="my-0 rounded-md"
-    loading="lazy"
-    decoding="async"
-    fetchpriority="auto"
-    alt="Fusion 360 rocket model"
-    width="2114"
-    height="1570"
-    src="/week-1/rocket_hu_2f20c1064dd0122e.png"
-    srcset="/week-1/rocket_hu_2f20c1064dd0122e.png 800w, /week-1/rocket_hu_4f5f37e3a1612700.png 1280w"
-    sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/week-1/rocket.png"></figure>
-
-<h3 class="relative group">Tools Used
-    <div id="tools-used" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tools-used" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p><code>Sketch</code> · <code>Polygon</code> · <code>Extrude</code> · <code>Offset Plane</code> · <code>Loft</code> · <code>Hole</code> · <code>Circular Pattern</code></p>
-
-<h3 class="relative group">Challenges
-    <div id="challenges" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#challenges" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>One of the main challenges was understanding how different features depend on the geometry created before them. Working with Offset Planes and Loft required me to think about where each profile needed to be placed, while features such as Hole and Circular Pattern required careful selection and positioning.</p>
-
-<h3 class="relative group">What I Learned
-    <div id="what-i-learned" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-i-learned" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>This project helped me understand how a complex 3D object can be built from relatively simple sketches and features. I also became more comfortable combining different Fusion 360 tools instead of treating each tool separately.</p>
-
-          
-          
-          
-        </div>
-        
-        
-
-        
-
-        
-
-      </div>
-    </section>
-
-    
-    <footer class="pt-8 max-w-prose print:hidden">
-      
-  
-
-
-      
-
-    </footer>
-  </article>
-
-        
-
-
-  
-
-
-
-
-
-
-<div
-  id="scroll-to-top"
-  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
-  <a
-    href="#the-top"
-    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Scroll to top"
-    title="Scroll to top">
-    &uarr;
-  </a>
-</div>
-
-      </main><footer id="site-footer" class="py-10 print:hidden">
-  
-  
-    
-  
-  <div class="flex items-center justify-between">
-    
-    
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          &copy;
-          2026
-          
-      </p>
-    
-
-    
-    
-  </div>
-  
-  
+			</header>
+
+			<main id="main-content">
+				
+
+
+
+
+
+
+
+
+
+<article class="page ">
+	
+
+	<header class="page__header">
+		<h1 class="page__title">Week 1</h1>
+
+		
+
+		
+			<p class="page__description">Fusion 360 — Rocket Design</p>
+		
+	</header>
+
+	
+	
+	
+	
+
+	
+		
+			
+		
+
+		
+			
+		
+
+		
+			
+		
+
+		
+			
+		
+	
+
+	
+
+	
+
+	
+
+	<div class="page__content">
+		<h2 id="assignment-1--documentation-website">Assignment 1 — Documentation Website</h2>
+<h3 id="goal">Goal</h3>
+<p>The goal of this assignment was to create a website where I can document my work throughout the Digital Fabrication course. I wanted the website to be simple to update, so I chose Hugo to build it and GitHub Pages to publish it online.</p>
+<h3 id="setting-up-the-website">Setting Up the Website</h3>
+<p>I used <strong>Hugo</strong> as the static site generator for my documentation website. I first created a folder for the project and then created a new Hugo site from Terminal.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/Desktop
+</span></span><span style="display:flex;"><span>mkdir FabAcademy
+</span></span><span style="display:flex;"><span>cd FabAcademy
+</span></span><span style="display:flex;"><span>hugo new site mywebsite
+</span></span></code></pre></div><p>After creating the site, I opened the project folder and started customizing it instead of using the default Hugo appearance.</p>
+<h3 id="adding-the-theme">Adding the Theme</h3>
+<p>I used the <strong>Blowfish</strong> theme as a starting point. I added it to the project as a Git submodule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
+</span></span></code></pre></div><p>I then copied the theme configuration files into my own project so I could change them without editing the original theme files directly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p config/_default
+</span></span><span style="display:flex;"><span>cp themes/blowfish/config/_default/*.toml config/_default/
+</span></span></code></pre></div><p>I changed the site title, navigation, colors, typography, and homepage layout to make the website feel more like a personal documentation site rather than keeping the default theme design.</p>
+<h3 id="previewing-the-website">Previewing the Website</h3>
+<p>While working on the website, I used Hugo&rsquo;s local server to check my changes before publishing them.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>This gave me a local version of the website at <code>http://localhost:1313/</code>. I kept this open while changing the layout and content so I could see the results immediately.</p>
+<h3 id="setting-up-git-and-github">Setting Up Git and GitHub</h3>
+<p>After the website was working locally, I created a GitHub repository called <code>digital-fabrication</code>. I used Git to keep track of my changes and connected my local Hugo project to the GitHub repository.</p>
+<p>I also set up an SSH key on my computer so I could push changes to GitHub from Terminal.</p>
+<p>After connecting the repository, I pushed the project to GitHub:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Update website&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><p>I use the same three commands whenever I want to publish new changes to my documentation.</p>
+<h3 id="publishing-with-github-pages">Publishing with GitHub Pages</h3>
+<p>Once the project was on GitHub, I used <strong>GitHub Pages</strong> to make the website public. Since the site is built with Hugo, I used a GitHub Actions workflow to build and deploy it automatically.</p>
+<p>I set the Pages source to <strong>GitHub Actions</strong> and added a Hugo workflow inside <code>.github/workflows/hugo.yaml</code>.</p>
+<p>Now, whenever I push a change to the <code>main</code> branch, GitHub Actions rebuilds the Hugo site and updates the published website automatically.</p>
+<h3 id="problems-i-ran-into">Problems I Ran Into</h3>
+<p>One problem I had was a <strong>404 error</strong> when I first created the Week 1 page. The Markdown file had incomplete front matter, so Hugo was not recognizing the page correctly. I fixed it by making sure the page started and ended its front matter with <code>---</code>.</p>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Week 1&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;Documentation&#34;</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>Another problem appeared after I published the website. The <strong>View documentation</strong> link worked on localhost but did not work on GitHub Pages.</p>
+<p>I originally wrote the link as:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/week-1/&#34;</span>&gt;View documentation&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><p>The <code>/</code> at the beginning made the link start from the root of the GitHub Pages domain instead of my <code>digital-fabrication</code> site. I changed it to a relative link:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;week-1/&#34;</span>&gt;View documentation&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><p>After pushing the change to GitHub and letting GitHub Actions rebuild the site, the link worked on the published version as well.</p>
+<h3 id="changing-the-theme">Changing the Theme</h3>
+<p>I initially used the Blowfish theme, but after customizing it for a while, I decided to switch to the Rewired theme because I preferred its layout and visual style.</p>
+<p>I added Rewired as another Git submodule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/RigleGit/rewired.git themes/rewired
+</span></span></code></pre></div><p>I then changed the Hugo configuration to use Rewired and customized the homepage to show my assignments directly.</p>
+<p>While changing themes, I noticed that some of the old Blowfish configuration files were still affecting the website. For example, an extra language selector appeared in the top right corner. I removed the old Blowfish configuration files and adjusted the Rewired navigation, which fixed the problem.</p>
+<h3 id="using-obsidian">Using Obsidian</h3>
+<p>I opened the <code>mywebsite</code> folder as an Obsidian vault and used it to write my documentation. Since Obsidian edits Markdown files directly, I can work on the same files that Hugo uses for the website.</p>
+<p>For example, this page is stored in:</p>
+<p><code>content/week-1/index.md</code></p>
+<p>This means I can write in Obsidian, preview the result locally with Hugo, and then push the changes to GitHub.</p>
+<h3 id="result">Result</h3>
+<p><figure class="content-figure">
+	<img
+		src="final-website.png"
+		alt="Final version of the documentation website"
+		
+		loading="lazy"
+	>
+
+	
+		<figcaption>
+			
+				Final version of the documentation website
+			
+		</figcaption>
+	
+</figure></p>
+<p><em>Final version of the documentation website running locally with Hugo.</em></p>
+<p>The final result is a documentation website that I can continue updating throughout the course.</p>
+<p>My workflow is:</p>
+<p><code>Obsidian → Hugo → Git → GitHub → GitHub Pages</code></p>
+<p>I write the documentation in Obsidian, preview the website locally with Hugo, and push the changes to GitHub. GitHub Actions then rebuilds and publishes the updated website automatically.</p>
+
+	</div>
+
+	<footer class="page__footer">
+		
+		
+
+		
+	</footer>
+</article>
+
+
+			</main>
+
+			<footer class="site-footer">
+	<div class="site-footer__meta">
+		
+			Digital Fabrication // 2026
+		
+	</div>
+
+	<div class="site-footer__prompt" aria-hidden="true">
+		
+			beliz@digital-fabrication:~$
+		<span class="site-footer__cursor">_</span>
+	</div>
 </footer>
-<div
-  id="search-wrapper"
-  role="dialog"
-  aria-modal="true"
-  aria-label="Search"
-  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="/">
-  <div
-    id="search-modal"
-    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
-    <header class="relative z-10 flex items-center justify-between flex-none px-2">
-      <form class="flex items-center flex-auto min-w-0">
-        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
-          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-        </div>
-        <input
-          type="search"
-          id="search-query"
-          aria-label="Search"
-          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
-          placeholder="Search"
-          tabindex="0">
-      </form>
-      <button
-        id="close-search-button"
-        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="Close (Esc)">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-      </button>
-    </header>
-    <section class="flex-auto px-2 overflow-auto">
-      <ul id="search-results">
-        
-      </ul>
-    </section>
-  </div>
-</div>
-
-    </div>
-    
-    
-  </body>
-  
+		</div>
+	</body>
 </html>
