@@ -32,7 +32,7 @@ I set the radio group to **5** so that both micro could communicate. I then prog
 
 This allows the remote to send instructions wirelessly to the night lamp.
 
-_The MakeCode program for the remote control._
+![Remote control MakeCode blocks](KUMANDA.png)
 
 ### Programming the Night Lamp
 
@@ -51,7 +51,7 @@ Each time the micro receives a radio signal, the variable increases by one. Cond
 
 When the variable reaches the end of the sequence, it resets to 0, returning the lights to red.
 
-_The MakeCode program for the night lamp._
+![Night lamp MakeCode blocks](NIGHT%20LAMP.png)
 
 ### Circuit Assembly and Testing
 
@@ -59,7 +59,7 @@ After preparing both programs, I connected the NeoPixel LED strip to the micro u
 
 I checked the wiring and tested the LED strip. The LEDs initially did not light up as expected, so I needed to examine the connections and power supply.
 
-_The electronic circuit with two micro and the illuminated LED strip._
+![Night lamp circuit](IMG_0058.jpg)
 
 ### Challenges and Solutions
 
@@ -70,6 +70,20 @@ This showed me the importance of checking both the code and the circuit when tro
 ### Final Result
 
 The night lamp was designed to cycle through red, green, and blue using button B on the remote control. After the third color, the program returns to the first color, allowing the sequence to repeat.
+
+The videos below document the night lamp setup and testing process.
+
+**Video 1 — Night Lamp Demonstration**
+
+<video controls width="100%">
+  <source src="IMG_0057.mov" type="video/quicktime">
+</video>
+
+**Video 2 — Night Lamp Testing**
+
+<video controls width="100%">
+  <source src="IMG_0059.mov" type="video/quicktime">
+</video>
 
 ### What I Learned
 
