@@ -76,13 +76,13 @@ The videos below document the night lamp setup and testing process.
 **Video 1 — Night Lamp Demonstration**
 
 <video controls width="100%">
-  <source src="IMG_0057.mov" type="video/quicktime">
+  <source src="IMG_0057.mp4" type="video/mp4">
 </video>
 
 **Video 2 — Night Lamp Testing**
 
 <video controls width="100%">
-  <source src="IMG_0059.mov" type="video/quicktime">
+  <source src="IMG_0059.mp4" type="video/mp4">
 </video>
 
 ### What I Learned
